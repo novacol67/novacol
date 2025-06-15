@@ -3,6 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- Meta Tags para Social Preview (Open Graph y Twitter) -->
+  <meta property="og:title" content="novaklar - Innovación a tu alcance">
+  <meta property="og:description" content="Descubre soluciones digitales innovadoras con Novaklar. Streaming, gaming, cursos y más.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/novaklar/web/refs/heads/main/NKlogo%20(1).png">
+  <meta property="og:url" content="https://novaklar.github.io/web"> <!-- Reemplaza con tu URL real -->
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  
   <title>novaklar</title>
   <link rel="stylesheet" href="style.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -64,31 +73,6 @@
     
     .counter-container {
       text-align: center;
-    }
-
-    /* Estilos para el bloque de imagen + enlace (Opción 1) */
-    .github-link-container {
-      text-align: center;
-      margin: 40px 0;
-    }
-    .github-link-container img {
-      width: 200px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      margin-bottom: 15px;
-    }
-    .github-link-container a {
-      display: inline-block;
-      background-color: #6c91ff;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: background-color 0.3s;
-    }
-    .github-link-container a:hover {
-      background-color: #5a7de0;
     }
     
     @media (max-width: 768px) {
@@ -198,12 +182,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Bloque añadido: Imagen + Enlace a GitHub -->
-    <div class="github-link-container">
-      <img src="https://raw.githubusercontent.com/novaklar/web/refs/heads/main/NKlogo%20(1).png" alt="Logo Novaklar GitHub">
-      <a href="https://github.com/novaklar" target="_blank">Visita nuestro GitHub</a>
-    </div>
 
     <section class="counters">
       <!-- Reorganizado el orden de los contadores -->
